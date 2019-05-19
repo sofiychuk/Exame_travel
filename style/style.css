@@ -1,0 +1,664 @@
+body {
+    font: 300 16px/normal 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu_container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.bhromaon__header {
+    background: url(../img/bg-travel-header.jpg);
+    min-height: 740px;
+    background-size: cover;
+    text-align: center;
+}
+
+.company-name {
+    padding: 265px 0 55px;
+}
+
+.search {
+    width: 59%;
+    min-height: 40px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.input__search {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 76.4%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.input__search:focus {
+    color: #5474fd;
+}
+
+.bhromaon__btn {
+    padding: 18px 55px 18px 30px;
+    margin: 2px 2px 2px 0;
+    border: none;
+    background-color: #5474fd;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-image: url('../img/search_icon.png');
+    background-repeat: no-repeat;
+    background-position: 88% center;
+    font-family: 'AleoRegular';
+    font-size: 0.875rem;
+    letter-spacing: 1.2px;
+}
+
+.bhromaon__btn {
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+}
+
+.bhromaon__btn:hover {
+    animation-name: shakeAnim;
+}
+
+@keyframes shakeAnim {
+    0% {
+        left: 0
+    }
+
+    1% {
+        left: -3px
+    }
+
+    2% {
+        left: 5px
+    }
+
+    3% {
+        left: -8px
+    }
+
+    4% {
+        left: 8px
+    }
+
+    5% {
+        left: -5px
+    }
+
+    6% {
+        left: 3px
+    }
+
+    7% {
+        left: 0
+    }
+}
+
+@keyframes shake {
+    0% {
+        left: 0
+    }
+
+    1% {
+        left: -3px
+    }
+
+    2% {
+        left: 5px
+    }
+
+    3% {
+        left: -8px
+    }
+
+    4% {
+        left: 8px
+    }
+
+    5% {
+        left: -5px
+    }
+
+    6% {
+        left: 3px
+    }
+
+    7% {
+        left: 0
+    }
+}
+
+.bhromaon__btn:active {
+    transform: scale(0.9)
+}
+
+.company-name__title {
+    color: #ffffff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.company-name__text {
+    color: #ffffff;
+    font-size: 1.375rem;
+    letter-spacing: 4px;
+}
+
+.scroll-down {
+    color: #ffffff;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 45%;
+    bottom: -140px;
+}
+
+.scroll-down__text {
+    padding-bottom: 5px;
+}
+
+.header__menu {
+    height: 80px;
+    background-color: #5474fd;
+    margin-top: 300px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__title_block {
+    padding-top: 28px;
+    float: left;
+}
+
+.header__nav_block {
+    padding-top: 30px;
+    float: right;
+    font-family: 'AleoLight';
+}
+
+
+.title_block__name {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav_block__link {
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-bottom: 3px;
+    font-size: 0.875rem;
+    border-bottom: 2px solid #ffffff transparent;
+    transition: .3s ease-in-out;
+}
+
+.nav_block__link:hover {
+    border-bottom: 2px solid #ffffff;
+    text-shadow: #ffffff 0px 0px 3px;
+}
+
+.explore-places {
+    background-image: url(../img/bg-who_choose_us.jpg);
+    overflow: auto;
+    padding: 120px 0;
+    color: #ffffff;
+    background-size: cover;
+}
+
+.explore-places__content {
+    float: left;
+    width: 49%;
+    padding-top: 85px;
+}
+
+.explore-places__title {
+    padding-bottom: 45px;
+    font-family: 'AleoLight';
+}
+
+.explore-places-text {
+    padding: 20px 10px 0 0;
+    letter-spacing: 1px;
+    line-height: 1.659;
+    font-weight: 300;
+}
+
+.explore-places__img {
+    float: right;
+    width: 49%;
+}
+
+.explore-places__image_1 {
+    padding-left: 65px;
+}
+
+.explore-places__image_2 {
+    float: right;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: #ffffff;
+    background: rgb(73, 107, 254);
+    background: linear-gradient(45deg, rgba(73, 107, 254, 1) 35%, rgba(84, 116, 253, 1) 35%);
+    border: none;
+    outline: none;
+    font-family: 'AleoRegular';
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: #5474fd 1px 1px 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-image: linear-gradient(to right, rgba(73, 107, 254, 1) 0%, rgba(73, 107, 254, 1) 100%);
+    transform: scale(0.98)
+}
+
+.explore-places__btn {
+    margin-top: 50px;
+    padding: 20px 35px;
+}
+
+.travel__icons {
+    text-align: center;
+    padding: 100px 0 120px;
+    background-color: #333333;
+}
+
+.search__icon {
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 10px;
+    background-position: top-left;
+}
+
+.select__icon {
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 10px;
+    background-position: -70px;
+    margin: 0 285px 0;
+}
+
+.book-enjoy__icon {
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 80px;
+    display: inline-block;
+    margin-right: 10px;
+    background-position: -145px;
+}
+
+.icon__text {
+    width: 240px;
+    margin-top: 90px;
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: 'AleoRegular';
+    margin-left: -75px;
+
+}
+
+.icon__dotted-line {
+    background-image: url(../img/Workelips.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+    left: 160px;
+}
+
+.travel-country__spain-first {
+    background-image: url(../img/Bg_1-Spain.jpg);
+    padding: 200px 0 100px;
+    background-size: cover;
+}
+
+.block {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 50px 20px 50px 40px;
+    width: 50%;
+}
+
+.block__content * {
+    padding-bottom: 30px;
+}
+
+.country__text {
+    font-size: 1.25rem;
+}
+
+.block__title {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.block__text {
+    letter-spacing: -0.5px;
+    line-height: 1.7;
+}
+
+.travel-country__btn {
+    margin-top: 30px;
+    padding: 20px 55px;
+}
+
+.travel-country__spain-second {
+    background-image: url(../img/Bg_2-Spain.jpg);
+    padding: 200px 0 100px;
+    overflow: auto;
+    background-size: cover;
+}
+
+.block--right {
+    float: right;
+}
+
+.feedback {
+    background-image: url(../img/bg-tourists_feedback.jpg);
+    padding: 125px 0 185px;
+    background-size: cover;
+    position: relative;
+}
+
+.feedback__title {
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-family: 'AleoLight';
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.feedback hr {
+    width: 0;
+    margin: 5px auto;
+    transition: 2s ease-in-out;
+}
+
+.feedback:hover hr {
+    width: 330px;
+    border: 1px solid #ffffff;
+}
+
+.feedback__block {
+    overflow: auto;
+}
+
+.block__img--left {
+    float: left;
+}
+
+.block__img {
+    float: left;
+    width: 40%;
+}
+
+.feedback-content__block {
+    float: right;
+    width: 60%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 50px 40px 50px 60px;
+}
+
+.block__feedback-title {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 28px;
+}
+
+.block__feedback-text {
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+}
+
+.quotes__image {
+    margin: 0 3px 10px;
+}
+
+.travel__footer {
+    background-color: #232323;
+    padding: 100px 0 45px;
+}
+
+.footer__title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.footer__content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.networks__icons {
+    width: 100%;
+    display: inline-block;
+}
+
+.networks__icons--linkedin {
+    width: 20px;
+    vertical-align: -15%
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline-block;
+    padding: 15px 7px 0;
+    transition: .3s ease-in-out;
+}
+
+.social-networks li:hover {
+    transform: scale(1.15)
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .search {
+        width: 55%;
+        min-height: 40px;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .input__search {
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        width: 70.4%;
+        vertical-align: middle;
+    }
+
+    .bhromaon__btn {
+        padding: 15px 50px 15px 25px;
+        margin: 2px 2px 2px 0;
+        border: none;
+        background-color: #5474fd;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-image: url('../img/search_icon.png');
+        background-repeat: no-repeat;
+        background-position: 88% center;
+        font-family: 'AleoRegular';
+        font-size: 0.875rem;
+        letter-spacing: 1.2px;
+    }
+
+    .menu_container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .icon__dotted-line {
+        background-image: url(../img/Workelips.png);
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 60px;
+        position: absolute;
+        top: -50px;
+        left: 55px;
+    }
+
+    .block__img img {
+        float: left;
+        width: 110%;
+    }
+
+    .feedback-content__block {
+        width: 57%;
+        background-color: #333333;
+        color: #ffffff;
+        padding: 32px 30px 40px 40px;
+    }
+
+    .block__feedback-text {
+        letter-spacing: -0.5px;
+        line-height: 1.3;
+    }
+
+    .bhromaon__btn {
+        position: relative;
+        animation-name: shake;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+        cursor: pointer;
+    }
+
+    .bhromaon__btn:hover {
+        animation-name: shakeAnim;
+    }
+
+    @keyframes shakeAnim {
+        0% {
+            left: 0
+        }
+
+        1% {
+            left: -3px
+        }
+
+        2% {
+            left: 5px
+        }
+
+        3% {
+            left: -8px
+        }
+
+        4% {
+            left: 8px
+        }
+
+        5% {
+            left: -5px
+        }
+
+        6% {
+            left: 3px
+        }
+
+        7% {
+            left: 0
+        }
+    }
+
+    @keyframes shake {
+        0% {
+            left: 0
+        }
+
+        1% {
+            left: -3px
+        }
+
+        2% {
+            left: 5px
+        }
+
+        3% {
+            left: -8px
+        }
+
+        4% {
+            left: 8px
+        }
+
+        5% {
+            left: -5px
+        }
+
+        6% {
+            left: 3px
+        }
+
+        7% {
+            left: 0
+        }
+    }
+
+    .bhromaon__btn:active {
+        transform: scale(0.9)
+    }
+
+    .nav_block__link:hover {
+        border-bottom: 2px solid #ffffff;
+        text-shadow: #ffffff 0px 0px 3px;
+    }
+
+    .btn:hover {
+        box-shadow: #5474fd 1px 1px 10px;
+    }
+
+    ..btn:active {
+        background-image: linear-gradient(to right, rgba(73, 107, 254, 1) 0%, rgba(73, 107, 254, 1) 100%);
+        transform: scale(0.98)
+    }
+
+    .feedback:hover hr {
+        width: 330px;
+        border: 1px solid #ffffff;
+    }
+
+    .input__search:focus {
+        color: #5474fd;
+    }
+}
